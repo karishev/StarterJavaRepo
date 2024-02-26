@@ -44,8 +44,8 @@ public class CalculatorTest {
     @Test
     public void addToZero() {
         int a = 4;
-        int b = 3;
-        double expected = 7;
+        int b = 0;
+        double expected = 4;
         assertEquals(expected, calculator.add(a, b));
     }
 
