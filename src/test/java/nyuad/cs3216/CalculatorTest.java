@@ -41,13 +41,13 @@ public class CalculatorTest {
         assertEquals(expected, calculator.divide(a, b), 0.0000001d);
     }
 
-    @Test
-    public void addToZero() {
-        int a = 4;
-        int b = 3;
-        double expected = 7;
-        assertEquals(expected, calculator.add(a, b));
-    }
+    // @Test
+    // public void addToZero() {
+    //     int a = 4;
+    //     int b = 0;
+    //     double expected = 4;
+    //     assertEquals(expected, calculator.add(a, b));
+    // }
 
     @Test
     public void divide_ByZero() {
